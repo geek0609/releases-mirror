@@ -14,7 +14,7 @@ jobs:
         run: sudo apt-get install wget -y
       
       - name: Download
-        run: wget https://github.com/kiam001/releases/releases/download/1859-ProjectSakura-5.2-GAPPS-Basic-20211011-1406-mojito-OFFICIAL/ProjectSakura-5.2-GAPPS-Basic-20211011-1406-mojito-OFFICIAL.zip
+        run: wget https://bigota.d.miui.com/V12.5.7.0.RJDEUXM/miui_APOLLOEEAGlobal_V12.5.7.0.RJDEUXM_5900218774_11.0.zip 
 
       - name: Post a Github Release
         run: hub release create -a *.zip -m 'ROM Build' $(date +%s)
